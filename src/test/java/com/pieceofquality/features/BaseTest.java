@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.executeJavaScript;
 
 public class BaseTest {
 
-    {
+    static {
         Configuration.browser = System.getProperty("driver.browser");
     }
 

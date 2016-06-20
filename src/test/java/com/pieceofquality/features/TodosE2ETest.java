@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 import static com.codeborne.selenide.Selenide.open;
-import static com.pieceofquality.pages.ToDoMVCPage.*;
+import static com.pieceofquality.pages.ToDoMVC.*;
 
 /**
  * Created by piece on 19.06.2016.

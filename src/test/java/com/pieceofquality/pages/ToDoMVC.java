@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverRunner.url;
 
-public class ToDoMVCPage {
+public class ToDoMVC {
 
     public static ElementsCollection tasks = $$("#todo-list li");
 

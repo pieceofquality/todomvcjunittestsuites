@@ -1,10 +1,12 @@
 package com.pieceofquality.features;
 
+import com.pieceofquality.categories.Buggy;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
-import static com.pieceofquality.pages.ToDoMVCPage.TaskType.ACTIVE;
-import static com.pieceofquality.pages.ToDoMVCPage.TaskType.COMPLETED;
-import static com.pieceofquality.pages.ToDoMVCPage.*;
+import static com.pieceofquality.pages.ToDoMVC.TaskType.ACTIVE;
+import static com.pieceofquality.pages.ToDoMVC.TaskType.COMPLETED;
+import static com.pieceofquality.pages.ToDoMVC.*;
 
 public class TodosOperationsAtAllFilterTest extends BaseTest{
 
@@ -26,6 +28,7 @@ public class TodosOperationsAtAllFilterTest extends BaseTest{
     }
 
     @Test
+    @Category(Buggy.class)
     public void testEditAtAll(){
         givenAtAll(aTask("1", ACTIVE), aTask("2", COMPLETED));
 
